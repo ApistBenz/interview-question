@@ -2,7 +2,7 @@ IllusionSoft
 =============
 The purpose of this project challenge is **not focus on perfection or completion** but give precedence on a **quality and the way you learning the new thing**.
 
-## Requirements Detail
+## 📔 Requirements Detail
 
 ### Module 1 | Callback (API)
 
@@ -75,13 +75,16 @@ The leaderboard to show who are the most receiving money from our systems (highe
 3. Design architecture for making real-time leaderboard. (with highest performance : 3000 concurrent player process) **( 🍻 bonus )**
 
 ---
-## Stack
+<br/>
+
+## 📔 Stack
 This mini-project requires to use 
 - [Minikube](https://minikube.sigs.k8s.io/docs/) for deploy your whole stack as containerization application.
 - [MongoDB](https://www.mongodb.com/) as database (we will sending you about the mongoDB cluster infomation to your email)
 
 ---
-## Prepare environment
+<br/>
+## 📔 Prepare environment
 
 1. Install Docker and Minikube
 1. connecting to mongodb cluster and then create the new database and naming as your name as format `first 5 character of your firstname follow first 3 character of your lastname` example.
@@ -94,18 +97,24 @@ Database name: foofybar
 2. Copy all of mock player data to your player collection. ( ** **playerUsername shoud be unique** )
 
 ---
-## Testing
+<br/>
+
+## 📔 Testing
 You can use `K6` file in resource directory for generate bet and settle requests.
 
 1. Install [K6](https://k6.io/docs/getting-started/installation/)
 2. Runing test `k6 run generate-bet-request.js -u 1 -d 1s`
 
 ---
-## Timebox
+<br/>
+
+## 📔 Timebox
 7 Days
 
 ---
-## Artifacts
+<br/>
+
+## 📔 Artifacts
 Create your new own repository for keep all of your project files including.
 1. Source code
 2. Kubernetes deployment file
