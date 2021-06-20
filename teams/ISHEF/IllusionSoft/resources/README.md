@@ -36,20 +36,20 @@ and next you'll receive the `settle request`.
 #### Player schema
 ```json
 {
-    playerUsername: string, (unique)
-    balance: Decimal128
+    "playerUsername": "String(unique)",
+    "balance": "Decimal128"
 }
 ```
 #### BetTransaction schema
 ```json
 {
-    betId: string, (unique)
-    playerUsername: string,
-    betAmount: Decimal128,
-    status: string,
-    winLoseAmount: Deciaml128,
-    createdDate: ISODatetime,
-    gameDate: ISODatetime,
+    "betId": "String(unique)",
+    "playerUsername": "String",
+    "betAmount": "Decimal128",
+    "status": "String",
+    "winLoseAmount": "Deciaml128",
+    "createdDate": "ISODatetime",
+    "gameDate": "ISODatetime",
 }
 ```
 #### schema explain
