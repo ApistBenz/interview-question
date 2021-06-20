@@ -2,7 +2,7 @@ IllusionSoft
 =============
 The purpose of this project challenge is **not focus on perfection or completion** but give precedence on a **quality and the way you learning the new thing**.
 
-## Requirements
+## Requirements Detail
 
 ### Module 1 | Callback (API)
 
@@ -21,7 +21,7 @@ In each bet that player place a bet you'll receive 2 requests.
     - `PrizeAmount` : the prize amount that player receive.
     - `PlayerUsername` : same username with bet request.
 
-#### API Callback Requirement
+#### 💪 API Callback Requirement
 You need to development 2 API endpoints
 ##### 1. POST /bet
 When receiving the `bet request`.
@@ -33,14 +33,14 @@ and next you'll receive the `settle request`.
 1. update `WinLoseAmount` and `Status` to `done`
 2. done all of process by return response success
 ---
-#### Player schema
+#### 💾 Player schema
 ```json
 {
     "playerUsername": "String(unique)",
     "balance": "Decimal128"
 }
 ```
-#### BetTransaction schema
+#### 💾 BetTransaction schema
 ```json
 {
     "betId": "String(unique)",
@@ -52,7 +52,7 @@ and next you'll receive the `settle request`.
     "gameDate": "ISODatetime",
 }
 ```
-#### schema explain
+#### 🖥️ Schema explain
 | Field name     | Description                                                         | Logical                 | possible values                          |
 |----------------|---------------------------------------------------------------------|-------------------------|------------------------------------------|
 | betId (unique) | Use betId from bet request                                          |                         |                                          |
@@ -68,7 +68,7 @@ and next you'll receive the `settle request`.
 
 The leaderboard to show who are the most receiving money from our systems (highest sum of winLoseAmount).
 
-#### requirement
+#### 💪 requirement
 1. Beatiful UI is **not require** (Just HTML without CSS that super enough!!.)
 2. Show only top 5 players.
 2. Use **`WebSocket`** for updaing the data in leaderboard. (every 5s)
