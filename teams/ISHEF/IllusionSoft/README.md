@@ -95,7 +95,7 @@ Your name: Foofy Barbarla
 Database name: foofybar
 ```
 
-2. Copy all of mock player data to your player collection. ( ** **playerUsername shoud be unique** )
+2. Copy all of mock player data (/resource/player.csv) to your MongoDB player collection. ( ** **playerUsername shoud be unique** )
 
 ---
 <br/>
