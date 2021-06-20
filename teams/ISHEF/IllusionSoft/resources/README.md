@@ -106,7 +106,7 @@ You can use `K6` file in resource directory for generate bet and settle requests
 
 ---
 ## Artifacts
-Create your own new repository for keep all of your project files including.
+Create your new own repository for keep all of your project files including.
 1. Source code
 2. Kubernetes deployment file
 3. High-level architecture design diagram. **( 🍻 bonus )**
