@@ -72,7 +72,7 @@ The leaderboard to show who are the most receiving money from our systems (highe
 1. Beatiful UI is **not require** (Just HTML without CSS that super enough!!.)
 2. Show only top 5 players.
 2. Use **`WebSocket`** for updaing the data in leaderboard. (every 5s)
-3. Design architecture for making real-time leaderboard. (with highest performance : 3000 concurrent player process) **( 🍻 bonus )**
+3. (Optional) Design architecture for making real-time leaderboard. (with highest performance : 3000 concurrent player process) **( 🍻 bonus )**
 
 ---
 <br/>
@@ -119,6 +119,6 @@ You can use `K6` file in resource directory for generate bet and settle requests
 Create your new own repository for keep all of your project files including.
 1. Source code
 2. Kubernetes deployment file
-3. High-level architecture design diagram. **( 🍻 bonus )**
+3. (Optional) High-level architecture design diagram. **( 🍻 bonus )**
 
 
