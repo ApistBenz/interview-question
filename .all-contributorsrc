@@ -18,7 +18,17 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "torgit",
+      "name": "tor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10271654?v=4",
+      "profile": "https://github.com/torgit",
+      "contributions": [
+        "content"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
