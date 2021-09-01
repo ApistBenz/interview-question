@@ -1,7 +1,7 @@
 # Snocko Interview questions
 
 ## Purpose
-
+The purpose of the repository is for ....
 ## Team list
 - ISHEF
 
